@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding:0;
+  margin: 0;
+}
+header {
+  background-color: lightgray;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav {
+  margin:auto;
+  border-top: 3px solid red;
+  width: 960px;
+  height: 50px;
+}
+.col-left {
+  width: 20%;
+  padding-top: 10px;
+  display:block;
+  float: left;
+}
+.col-middle {
+  width: 40%;
+  display:block;
+  float: left;
+}
+.col-right {
+  width: 20%;
+  padding-top: 10px;
+  display:block;
+  float: right;
+}
+li a:hover {
+    color: red;
+}
+li a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    float: left;
+}
+ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.detailsmatter {
+  text-align: center;
+  padding-top: 55px;
+}
+.pictures {
+  margin: auto;
+  width: 960px;
+}
+.pic1 {
+  float: left;
+  padding-right: 4px;
+}
+.pic4 {
+  float: left;
+  padding-right: 4px;
+}
+.pic5 {
+  float: left;
+  padding-right: 4px;
+}
+.pic2 {
+  float: left;
+  padding-right: 4px;
+}
+.pic3 {
+  float: left;
+  padding-right: 4px;
+}
+.modernlayout1 {
+  width: 20%;
+  float: left;
+  text-align: left;
+  margin: auto;
+  font-size: 15px;
+  padding-top: 0;
+  padding-right: 5px;
+}
+.modernlayout2 {
+  width: 75%;
+  columns: 3;
+  float: left;
+  text-align: left;
+  padding-top:10;
+  margin: auto;
+  font-size: 15px;
+}
+h4 {
+  color: red;
+}
+h5 {
+  color: black;
+}
+.nav2 {
+  margin:15px;
+  width: 960px;
+}
+.bot-left {
+  width: 20%;
+  padding-right: 10px;
+  display:block;
+  float: left;
+}
+.bot-middle {
+  width: 75%;
+  padding-top: 10px;
+  display:block;
+  float: left;
+  columns: 3;
+}
